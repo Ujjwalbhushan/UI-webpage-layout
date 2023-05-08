@@ -1,0 +1,258 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    top: 0px;
+    bottom: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.nav-container{
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    background-color: rgb(255, 255, 255);
+    padding: 10px 0px;
+}
+
+.logo :hover{
+    cursor: pointer;
+}
+
+.user{
+    display: flex;
+    flex-wrap: nowrap;
+    cursor: pointer;
+}
+
+.user img{
+    width: 35px;
+    margin-top: 5px;
+}
+
+.nav-link{
+    list-style: none;
+    display: inline-block;
+    font-size: 100%;
+    padding: 12px;
+}
+
+.nav-link a{
+    text-decoration: none;
+    color: black;
+}
+
+.nav-link a :hover{
+    color: rgb(8, 224, 54);
+    text-shadow: 1px 1px 1px black;
+}
+
+.logout{
+    height: 30px;
+    width: 80px;
+    background-color: white;
+    color: black;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.logout:hover{
+    background-color: green;
+    color: black;
+}
+
+
+.container{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    background-color: rgb(217, 244, 222);
+}
+
+.container img{
+    width: 100%;
+    height: 100%;
+}
+.container .banner-button{
+    position: absolute;
+    padding: 20px;
+    margin-left: 70%;
+}
+
+.container .banner-button button{
+    background-color: white;
+    border: 1px solid black;
+    margin-left: -3px;
+    cursor: pointer;
+}
+
+
+
+.container .banner-button .my-profile{
+    height: 30px;
+    width: 100px;
+    border-right: none;
+}
+.container .banner-button .contact-us{
+    height: 30px;
+    width: 100px;
+    border-left: 1px;
+    border-right: none;
+
+}
+.container .banner-button .imgage{
+    height: 30px;
+    width: 50px;
+    border-left: none;
+}
+
+.container .banner-button .imgage img{
+    height: 15px;
+    width: 25px;
+}
+
+.mainpanel{
+    background-color: rgb(227, 232, 232);
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.main{
+    position: relative;
+    width: 95%;
+    background-color: rgb(255, 255, 255);
+    box-shadow:1px 1px 3px black;
+    margin-top: -2%;
+    margin-bottom: 2%;
+}
+
+
+
+.searchbar{
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 15px;
+}
+
+
+
+.widget-filter ::placeholder{
+    color: rgb(74, 72, 72);
+    font-size: 13px;
+}
+
+
+.card-section{
+    max-width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 5%;
+    margin-top: 2%;
+    justify-content: space-between;
+}
+.cards{
+    height: 280px;
+    width: 200px;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    cursor: pointer;
+    box-shadow: 2px 2px 3px black;
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+.cards:hover{
+    border: 5px solid rgb(8, 224, 54);
+    transition: 0.05s;
+}
+.image{
+    width: 70%;
+    margin-bottom: 10px;
+}
+.des{
+    font-size: 85%;
+    margin-top: 10px;
+    padding: 6px;
+    text-align: center;
+    color: rgb(104, 104, 104);
+}
+
+
+
+.bottom-button{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    float: right;
+    margin-right: 5%;
+}
+
+
+
+.back{
+    background-color: white;
+    height: 25px;
+    width: 80px;
+    border: none;
+    box-shadow: 1px 1px 3px black;
+    cursor: pointer;
+
+}
+.buttons .back:hover{
+    color: white;
+    background-color: rgb(8, 224, 54);
+}
+.add{
+    background-color: rgb(8, 224, 54);
+    height: 25px;
+    width: 80px;
+    border: none;
+    box-shadow: 1px 1px 3px black;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.buttons .add:hover{
+    color: black;
+    background-color: white;
+}
+
+.remove{
+    background-color: rgb(68, 224, 54);
+    height: 25px;
+    width: 80px;
+    border: none;
+    box-shadow: 1px 1px 3px black;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.buttons .remove:hover{
+    color: black;
+    background-color: white;
+}
+
+
+.footer{
+    text-align: center;
+    background-color:white;
+    width: 100%;
+    position: relative;
+    color: rgb(115, 114, 114);
+}
+.footer p{
+    padding: 20px;
+    font-size: 95%;
+    color: grey;
+}
+
+
+.footer span{
+    font-size: 80%;
+}
